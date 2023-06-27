@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+  
+  input {
+    padding: 5px;
+    margin: 0px 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #result-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #chart-diameter, #chart-frequency {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
